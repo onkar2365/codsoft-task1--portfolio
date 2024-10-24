@@ -1,0 +1,57 @@
+@media screen and (max-width:1000px){
+    /*if screen reolution less than 1200px then desktop nav not seen*/
+    #desk-nav{
+        display: none;
+        
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+
+    #experience, .experience-details-container{
+        margin-top: 2rem;
+    }
+    #profile{
+
+        .section-container{
+            display: block;
+        }
+    }
+
+    .arrow{
+        display: none;
+
+    }
+
+    section,.section-container{
+        height: fit-content;
+
+    }
+
+    section{
+        margin: 0 5%;
+    }
+
+    .section_pic-container{
+        width: 275px;
+        height: 275px;
+        margin-block-end: 0 auto 2rem;
+
+    }
+
+    .about-containers{
+        margin-top: 0;
+    }
+}
+
+@media  screen and (max-width:1400px) {
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers
+    {
+        flex-wrap: wrap;
+    }
+    
+}
